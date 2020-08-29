@@ -6,7 +6,7 @@
 #define BOOST_TEST_DYN_LINK
 #define BOOST_TEST_MODULE Main
 // insert boost path to unit test below
-#include //<boost/test/included/unit_test.hpp> 
+#include <boost/test/included/unit_test.hpp> 
 /* Note: originally, the line above was: "#include <boost/test/unit_test.hpp>" */
 
 BOOST_AUTO_TEST_CASE(fiveBitsTapAtTwo) {
