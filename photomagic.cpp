@@ -1,4 +1,4 @@
-#include "LFSR.hpp"
+#include "LFSR.cpp"
 
 #include <SFML/System.hpp>
 #include <SFML/Window.hpp>
@@ -40,7 +40,7 @@ int main(int argc, const char * argv[])
 			p.b = p.b ^ lfsr.generate(17);
 			/* change the pixels color */
 			image2.setPixel(x, y, p);
-			
+
 		}
 	}
 
@@ -62,7 +62,7 @@ int main(int argc, const char * argv[])
 
 	sf::Sprite sprite2;
 	sprite2.setTexture(texture2);
-	
+
 
 	// while (window1.isOpen() && window2.isOpen()) {
 
